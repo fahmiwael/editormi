@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(81, 81, 88);
+}
+.editor{
+ 
+    text-align: center;
+    background-color: rgb(81, 81, 88);
+    font-weight: bold;
+}
+a{
+    color: ivory;
+    font-style: oblique;
+}
+nav img{
+    margin: 20px;
+    max-width: 74px;
+    max-height: 74px;
+    object-fit: scale-down;
+    border-radius: 50%;
+
+}
+
+main{
+    text-align: center;
+}
+#codes{
+    background-color: rgb(43, 42, 42);
+    color:rgb(250, 249, 249) ;
+    width: 98%;
+    min-height: 280px;
+    /*border-radius: 5%;*/
+    border: 3px solid rgb(6, 33, 114);
+    font-size: 30px;
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons button{
+    width: 47%;
+    /*border-radius: 12%;
+    border: 5px;*/
+    padding: 12px;
+}
+
+#remove{
+    background-color: red;
+    color: rgb(253, 253, 252);
+}
+#run{
+    background-color: rgb(45, 23, 168);
+    color : rgb(253, 253, 252);
+}
+#result{
+    padding: 20px;
+    border-bottom: 5px solid black;
+    margin: 8px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: ivory;
+    
+}
+#result_id{
+    background-color: red;
+    color : rgb(253, 253, 252);
+}
+#results{
+    color: ivory;
+    font-size: 20px;
+}
